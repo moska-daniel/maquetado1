@@ -5,7 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    position: absolute;
+    margin-top: -37px;
+}
+
+h2 {
+    position: absolute;
+    margin-top: -37px;
+}
+
 h3 {
+    position: absolute;
+    margin-top: -27px;
     color: #fff;
 }
 
@@ -20,10 +32,12 @@ h3 {
 }
 
 .caja {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     margin: 15px;
     padding: 10px;
-    border-top: 18px solid rgb(240, 176, 81);
+    border-top: 26px solid rgb(240, 176, 81);
     border-bottom: 18px solid rgb(240, 198, 63);
     border-right: 4px solid rgb(240, 198, 63);
     border-left: 4px solid rgb(240, 198, 63);
@@ -33,7 +47,7 @@ h3 {
 .caja-int {
     margin: 10px;
     padding: 4px;
-    border-top: 18px solid rgb(255, 136, 0);
+    border-top: 24px solid rgb(255, 136, 0);
     border-bottom: 4px solid  rgb(255, 136, 0);
     border-right: 4px solid  rgb(255, 136, 0);
     border-left: 4px solid  rgb(255, 136, 0);
